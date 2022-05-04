@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54B7CF9C-2EE6-D330-8622-1EF6C248C2F5" name="Banco">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:25:03 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="banco_id" id="C32F0514-3B6B-3F1F-34F4-662300D8B14E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:25:11 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente" id="E9510003-99C3-AC6B-5492-06987E64B8DA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:25:53 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cartao" id="117DDB3B-F00F-AE29-B104-884B6AEC57A7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:26:29 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agencia" id="0A2C4CD4-A2DC-E2EF-E6EC-E3B527E4E5ED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:26:39 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conta" id="5D814EF1-BB55-DCA7-0A1E-6AA542CFCE39">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:26:57 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58CA14D5-D5B2-1C3A-A13B-02F9E38ED1D7" name="Banco PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-04 19:25:23 UTC</createdTime>
+<ownerDesignName>BD_Termina em casa</ownerDesignName>
+<engineerTo>
+<item key="0683126C-3DF8-FEBD-2BC5-121F0D61429A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C32F0514-3B6B-3F1F-34F4-662300D8B14E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
