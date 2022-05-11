@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="54B7CF9C-2EE6-D330-8622-1EF6C248C2F5" name="Banco" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E9B83324-E2C0-4251-1148-7E45749234E1" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="2DAB61B3-1262-F817-1D0E-5E6C02607BA7" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E9B83324-E2C0-4251-1148-7E45749234E1" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="E0554A3E-4E3D-7BFA-AE04-2118F8F29DFB" name="Deposito" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E9B83324-E2C0-4251-1148-7E45749234E1" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="E600ECC4-F01A-BF59-1622-3EA364DB0004" name="Saque" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E9B83324-E2C0-4251-1148-7E45749234E1" propertySourceId="" propertyTargetId=""/>
-</oracle.dbtools.crest.model.design.logical.LogicalDesign>
