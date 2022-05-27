@@ -1,3 +1,5 @@
+// Essa classe contém herança, ela é filha da classe Conta.
+// Essa classe contém polimorfismo, da interface saque.
 package br.pan.salario;
 
 import br.pan.conta.Conta;

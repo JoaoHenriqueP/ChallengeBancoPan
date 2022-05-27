@@ -1,3 +1,5 @@
+// Essa classe será a classe pai de ContaCorrente, ContaPoupanca e ContaSalario
+
 package br.pan.conta;
 
 public abstract class Conta {
